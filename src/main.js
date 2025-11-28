@@ -408,7 +408,7 @@ document.addEventListener('DOMContentLoaded', function () {
           backgroundColor: '#FFD4D4'
         }, '-= 0.5')
         .to('.fail-msg', {
-          y: '-20px',
+          y: '-70px',
           zIndex: 0,
           visibility: 'visible',
           duration: 0.5
@@ -431,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }, '-=0.5')
         .to('.sad-img', {
           backgroundColor: '#FFD4D4'
-        })
+        }, "-=0.5")
         .to('.fail-msg', {
           y: '-50px',
           zIndex: 0,
