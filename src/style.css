@@ -1410,6 +1410,10 @@ div[data-value="10"] {
     width: 6px !important;
   }
 
+  .noUi-vertical .noUi-handle:after {
+    opacity: 0 !important;
+  }
+
   .range_title {
     font-size: 2.4rem;
     gap: 0;
@@ -1456,7 +1460,7 @@ div[data-value="10"] {
   }
 
   .noUi-vertical .noUi-handle {
-    right: -4px !important;
+    right: -3.5px !important;
     bottom: -5px !important;
     border-radius: 100%;
   }
@@ -1475,6 +1479,12 @@ div[data-value="10"] {
     &:after {
       left: 20px;
     }
+  }
+}
+
+.modal {
+  .banner {
+    max-width: 100%;
   }
 }
 
